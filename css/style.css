@@ -71,7 +71,7 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
-    align: center
+    text-align: center;
 }
 
 .button:hover {
