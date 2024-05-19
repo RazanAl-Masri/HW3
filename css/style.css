@@ -277,20 +277,14 @@ body {
   }
 }
 
-
 .footer {
     background-color: #2E2F42;
-    width: 100%; /* Extend the background color to the full width of the viewport */
-    height: 312px; /* Keep the height as specified */
-    display: flex;
-    align-items: center; /* Align content vertically to the middle */
+    width: 100%;
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
 }
 
-.footer-content {
-    margin-left: 20px; /* Adjust margin for left alignment */
-}
-
-.footer .logo {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -298,16 +292,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Add margin to separate from the text */
+    display: block; /* Ensure the logo is displayed as a block element */
 }
 
-.footer .logo .span {
-    color: #F4F4FD;
-}
-
-.footer .text {
+.text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    display: block; /* Display the text as a block element */
 }
