@@ -280,8 +280,14 @@ body {
 
 .footer {
     background-color: #2E2F42;
-    width: 100%;
-    height: 312px;
+    width: 100%; /* Extend the background color to the full width of the viewport */
+    height: 312px; /* Keep the height as specified */
+    display: flex;
+    align-items: center; /* Align content vertically to the middle */
+}
+
+.footer-content {
+    margin-left: 20px; /* Adjust margin for left alignment */
 }
 
 .footer .logo {
@@ -292,6 +298,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-bottom: 10px;
 }
 
 .footer .logo .span {
