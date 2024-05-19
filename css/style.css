@@ -112,6 +112,44 @@ body {
     color: #FFFFFF;
 }
 
+#hero {
+    background-image: url('images/hero-bg.jpg');
+    background-size: 1440px 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+/* Center text and button */
+.hero-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 12px 24px;
+}
+
+
 .section2 {
     background-color: #FFFFFF;
 }
