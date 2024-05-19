@@ -162,11 +162,10 @@ body {
 
 .address-link {
   display: flex;
-  flex-direction: column;
 }
 
 .address-link .list {
-  margin-bottom: 10px; /* Adjust space between email and phone */
+  margin-right: 20px; /* Adjust space between email and phone */
 }
 
 @media (max-width: 768px) {
@@ -184,7 +183,8 @@ body {
     margin-right: 10px;
     margin-bottom: 0;
   }
-}
+
+
 
 .section2 {
     background-color: #FFFFFF;
