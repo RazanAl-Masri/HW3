@@ -155,7 +155,15 @@ body {
 }
 
 .header-ul .list {
-  margin-right: 20px; /* Adjust space between list items */
+  margin-right: 30px; /* Increase space between list items */
+}
+
+.header-ul .etiket {
+  text-decoration: none; /* Remove underline from links */
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
 }
 
 .address {
@@ -170,7 +178,14 @@ body {
 }
 
 .address-link .list {
-  margin-right: 20px; /* Adjust space between email and phone */
+  margin-right: 30px; /* Increase space between email and phone */
+}
+
+.address-link .etiket {
+  text-decoration: none; /* Remove underline from links */
+  color: #434455;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 @media (max-width: 768px) {
@@ -188,9 +203,6 @@ body {
     margin-right: 10px;
     margin-bottom: 0;
   }
-
-
-
 
 .section2 {
     background-color: #FFFFFF;
