@@ -146,7 +146,7 @@ body {
 .header-ul {
     display: flex;
     list-style: none; /* Remove default list markers */
-    margin: 0;
+    margin-left: 20px;
     padding: 0;
 }
 
