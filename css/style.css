@@ -213,6 +213,7 @@ body {
 .section-ul {
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style: none; /* Remove default list markers */
   padding: 0;
   margin: 0;
@@ -250,7 +251,8 @@ body {
   .section-ul .list {
     margin: 10px 0; /* Adjust space between list items for smaller screens */
   }
-}
+
+
 .section-4 {
     background-color: #FFFFFF;
 }
