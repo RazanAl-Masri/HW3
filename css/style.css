@@ -202,7 +202,7 @@ body {
 .section-ul .list {
     background-color: #FFFFFF;
     margin: 0 20px; /* Adjust space between list items */
-    text-align: left;
+    text-align: center;
 }
 
 .section-ul .list .subtitle {
@@ -250,6 +250,19 @@ body {
 
 .section-4 {
     background-color: #FFFFFF;
+}
+.section-4 .section-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-4 .list {
+  margin: 10px;
+  text-align: left;
 }
 
 .footer {
