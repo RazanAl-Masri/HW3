@@ -71,7 +71,7 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
-    weidth: 169px;
+    width: 169px;
     height: 60px;
 }
 
@@ -84,7 +84,6 @@ body {
     color: #404BBF !important;
 }
 
-
 .our-team {
     background-color: #F4F4FD;
 }
@@ -96,9 +95,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    
 }
-
 
 .hero {
     background-color: #2E2F42;
@@ -134,124 +131,122 @@ body {
     padding: 12px 24px;
 }
 
-
 .header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adjust padding as needed */
 }
 
 .home-navbar {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .header-ul {
-  display: flex;
-  list-style: none; /* Remove default list markers */
-  margin: 0;
-  padding: 0;
+    display: flex;
+    list-style: none; /* Remove default list markers */
+    margin: 0;
+    padding: 0;
 }
 
 .header-ul .list {
-  margin-right: 30px; /* Increase space between list items */
+    margin-right: 30px; /* Increase space between list items */
 }
 
 .header-ul .etiket {
-  text-decoration: none; /* Remove underline from links */
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
+    text-decoration: none; /* Remove underline from links */
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .address {
-  display: flex;
+    display: flex;
 }
 
 .address-link {
-  display: flex;
-  list-style: none; /* Remove default list markers */
-  margin: 0;
-  padding: 0;
+    display: flex;
+    list-style: none; /* Remove default list markers */
+    margin: 0;
+    padding: 0;
 }
 
 .address-link .list {
-  margin-right: 30px; /* Increase space between email and phone */
+    margin-right: 30px; /* Increase space between email and phone */
 }
 
 .address-link .etiket {
-  text-decoration: none; /* Remove underline from links */
-  color: #434455;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+    text-decoration: none; /* Remove underline from links */
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
-@media (max-width: 768px) {
-  .header-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .header-ul, .address-link {
-    flex-direction: row;
-    margin-left: 0;
-  }
-
-  .header-ul .list, .address-link .list {
-    margin-right: 10px;
-    margin-bottom: 0;
-  }
-
 .section2 {
-  background-color: #FFFFFF;
-  text-align: center;
-  padding: 20px; /* Adjust padding as needed */
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px; /* Adjust padding as needed */
 }
 
 .section-ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none; /* Remove default list markers */
-  padding: 0;
-  margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none; /* Remove default list markers */
+    padding: 0;
+    margin: 0;
 }
 
 .section-ul .list {
-  background-color: #FFFFFF;
-  margin: 0 20px; /* Adjust space between list items */
-  text-align: left;
+    background-color: #FFFFFF;
+    margin: 0 20px; /* Adjust space between list items */
+    text-align: left;
 }
 
 .section-ul .list .subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-  margin-bottom: 10px; /* Adjust margin as needed */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 10px; /* Adjust margin as needed */
 }
 
 .section-ul .list .text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* Adjust for smaller screens */
 @media (max-width: 768px) {
-  .section-ul {
-    flex-direction: column;
-    align-items: center;
-  }
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-  .section-ul .list {
-    margin: 10px 0; /* Adjust space between list items for smaller screens */
-  }
+    .header-ul, .address-link {
+        flex-direction: row;
+        margin-left: 0;
+    }
 
+    .header-ul .list, .address-link .list {
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .section-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-ul .list {
+        margin: 10px 0; /* Adjust space between list items for smaller screens */
+    }
+}
 
 .section-4 {
     background-color: #FFFFFF;
