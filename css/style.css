@@ -263,7 +263,19 @@ body {
 .section-4 .list {
   margin: 10px;
   text-align: left;
+  width: calc((100% - 40px) / 3); /* Adjust the width of each item to fit three items per row */
+  max-width: 360px; /* Set maximum width for each item */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .section-4 .list {
+    width: calc((100% - 20px) / 2); /* Adjust width for smaller screens to fit two items per row */
+    max-width: 100%; /* Reset max-width for smaller screens */
+  }
+}
+
 
 .footer {
     background-color: #2E2F42;
