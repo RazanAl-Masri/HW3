@@ -149,7 +149,9 @@ body {
 
 .header-ul {
   display: flex;
-  margin-left: 20px; /* Adjust margin as needed */
+  list-style: none; /* Remove default list markers */
+  margin: 0;
+  padding: 0;
 }
 
 .header-ul .list {
@@ -162,6 +164,9 @@ body {
 
 .address-link {
   display: flex;
+  list-style: none; /* Remove default list markers */
+  margin: 0;
+  padding: 0;
 }
 
 .address-link .list {
@@ -183,6 +188,7 @@ body {
     margin-right: 10px;
     margin-bottom: 0;
   }
+
 
 
 
